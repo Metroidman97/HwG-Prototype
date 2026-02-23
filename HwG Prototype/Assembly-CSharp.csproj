@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Player and Camera Scripts\Movement.cs" />
     <Compile Include="Assets\Player and Camera Scripts\MatchPosition.cs" />
+    <Compile Include="Assets\General scripts\MonsterNav.cs" />
     <Compile Include="Assets\Player and Camera Scripts\CameraControl.cs" />
     <Compile Include="Assets\Player and Camera Scripts\CameraHolder.cs" />
     <Compile Include="Assets\Player and Camera Scripts\PlayerInteraction.cs" />
@@ -900,6 +901,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.ProBuilder">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
       <Private>False</Private>
@@ -980,6 +985,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1000,12 +1009,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
