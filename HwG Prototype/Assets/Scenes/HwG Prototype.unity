@@ -134,7 +134,7 @@ GameObject:
   m_Layer: 0
   m_Name: Node (1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -147,7 +147,7 @@ Transform:
   m_GameObject: {fileID: 13764594}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.8, y: -35.5, z: -12.7}
+  m_LocalPosition: {x: 20.46, y: 0, z: -2.84}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -706,7 +706,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &72372575
 Transform:
   m_ObjectHideFlags: 0
@@ -899,7 +899,7 @@ GameObject:
   m_Layer: 0
   m_Name: Node (2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -912,7 +912,7 @@ Transform:
   m_GameObject: {fileID: 110001372}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.02, y: 0, z: 7.01}
+  m_LocalPosition: {x: -14.64, y: 0, z: -2.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2687,7 +2687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &296103214
 Transform:
   m_ObjectHideFlags: 0
@@ -2718,7 +2718,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &297458584
 Transform:
   m_ObjectHideFlags: 0
@@ -4987,7 +4987,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &541632432
 Transform:
   m_ObjectHideFlags: 0
@@ -5018,7 +5018,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &652337769
 Transform:
   m_ObjectHideFlags: 0
@@ -5028,7 +5028,7 @@ Transform:
   m_GameObject: {fileID: 652337768}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.33, y: 0, z: 6.72}
+  m_LocalPosition: {x: -0.78, y: 0, z: -1.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8683,7 +8683,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1243577243
 Transform:
   m_ObjectHideFlags: 0
@@ -11201,7 +11201,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1602488140
 Transform:
   m_ObjectHideFlags: 0
@@ -11232,7 +11232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1602837835
 Transform:
   m_ObjectHideFlags: 0
@@ -11428,7 +11428,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1640037285
 Transform:
   m_ObjectHideFlags: 0
@@ -11456,7 +11456,7 @@ GameObject:
   m_Layer: 0
   m_Name: Node
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -12629,7 +12629,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2057261174
 Transform:
   m_ObjectHideFlags: 0
@@ -13280,6 +13280,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8905829261849899294}
     - target: {fileID: 7436380987498517357, guid: 4e5b7e5094026ef4587722839136f306, type: 3}
+      propertyPath: points.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7436380987498517357, guid: 4e5b7e5094026ef4587722839136f306, type: 3}
       propertyPath: points.Array.data[0]
       value: 
       objectReference: {fileID: 1714016664}
@@ -13298,35 +13302,35 @@ PrefabInstance:
     - target: {fileID: 7436380987498517357, guid: 4e5b7e5094026ef4587722839136f306, type: 3}
       propertyPath: points.Array.data[4]
       value: 
-      objectReference: {fileID: 1640037285}
+      objectReference: {fileID: 1602488140}
     - target: {fileID: 7436380987498517357, guid: 4e5b7e5094026ef4587722839136f306, type: 3}
       propertyPath: points.Array.data[5]
       value: 
-      objectReference: {fileID: 72372575}
+      objectReference: {fileID: 1602488140}
     - target: {fileID: 7436380987498517357, guid: 4e5b7e5094026ef4587722839136f306, type: 3}
       propertyPath: points.Array.data[6]
       value: 
-      objectReference: {fileID: 296103214}
+      objectReference: {fileID: 1602488140}
     - target: {fileID: 7436380987498517357, guid: 4e5b7e5094026ef4587722839136f306, type: 3}
       propertyPath: points.Array.data[7]
       value: 
-      objectReference: {fileID: 297458584}
+      objectReference: {fileID: 1602488140}
     - target: {fileID: 7436380987498517357, guid: 4e5b7e5094026ef4587722839136f306, type: 3}
       propertyPath: points.Array.data[8]
       value: 
-      objectReference: {fileID: 541632432}
+      objectReference: {fileID: 1602488140}
     - target: {fileID: 7436380987498517357, guid: 4e5b7e5094026ef4587722839136f306, type: 3}
       propertyPath: points.Array.data[9]
       value: 
-      objectReference: {fileID: 1602837835}
+      objectReference: {fileID: 1602488140}
     - target: {fileID: 7436380987498517357, guid: 4e5b7e5094026ef4587722839136f306, type: 3}
       propertyPath: points.Array.data[10]
       value: 
-      objectReference: {fileID: 2057261174}
+      objectReference: {fileID: 1602488140}
     - target: {fileID: 7436380987498517357, guid: 4e5b7e5094026ef4587722839136f306, type: 3}
       propertyPath: points.Array.data[11]
       value: 
-      objectReference: {fileID: 1243577243}
+      objectReference: {fileID: 1602488140}
     - target: {fileID: 7436380987498517357, guid: 4e5b7e5094026ef4587722839136f306, type: 3}
       propertyPath: points.Array.data[12]
       value: 

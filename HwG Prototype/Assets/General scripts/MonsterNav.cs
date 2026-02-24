@@ -16,6 +16,8 @@ public class MonsterNav : MonoBehaviour
     private int destPoint = 0;
     private NavMeshAgent agent;
 
+    private float waitTime = 2f;
+    private bool  isWaiting;
     private float detectionRange = 5f;
     private float viewAngle = 90f;
     private float losePlayerTime = 3f;
@@ -27,7 +29,7 @@ public class MonsterNav : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        agent.autoBraking = false;
+        //agent.autoBraking = false;
         GotoNextPoint();
     }
 
@@ -35,11 +37,12 @@ public class MonsterNav : MonoBehaviour
     void Update()
     {
         float playerDistance = Vector3.Distance(player.position, transform.position);
-
+        
         switch (state)
         {
             case EnemyState.Patrolling:
-                GotoNextPoint();
+                //GotoNextPoint();
+                Patrol();
                 if (playerDistance <= detectionRange && PlayerSeen())
                 {
                     state = EnemyState.Following;
@@ -64,6 +67,16 @@ public class MonsterNav : MonoBehaviour
         }
     }
 
+    void Patrol()
+    {
+        if (isWaiting)
+            return;
+
+        if (!agent.pathPending && agent.remainingDistance <= 0.5f)
+        {
+            StartCoroutine(Wait());
+        }
+    }
     void GotoNextPoint()
     {
         if (agent.remainingDistance < 0.5f)
@@ -75,6 +88,18 @@ public class MonsterNav : MonoBehaviour
 
             destPoint = (destPoint + 1) % points.Length;
         }
+    }
+
+    private IEnumerator Wait()
+    {
+        isWaiting = true;
+        agent.isStopped = true;
+
+        yield return new WaitForSeconds(waitTime);
+
+        agent.isStopped = false;
+        GotoNextPoint();
+        isWaiting = false;
     }
 
     void GotoClosestPoint()
