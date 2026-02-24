@@ -97,9 +97,9 @@ public class Movement : MonoBehaviour
         // air resistance
         if (Grounded == true)
 
-            rb.angularDrag = GroundDrag;
+            rb.drag = GroundDrag;
         else
-            rb.angularDrag = 0;
+            rb.drag = 1f;
 
 
     }

@@ -1,50 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\",
+  "WorkspaceRootPath": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|c:\\users\\valen\\hwg-prototype\\hwg prototype\\assets\\player and camera scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\player and camera scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|c:\\users\\owner\\onedrive\\documents\\college stuff\\ucf\\unity temp\\hwg\\hwg-prototype\\hwg prototype\\assets\\general scripts\\monsternav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\monsternav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|c:\\users\\valen\\hwg-prototype\\hwg prototype\\assets\\player and camera scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|c:\\users\\owner\\onedrive\\documents\\college stuff\\ucf\\unity temp\\hwg\\hwg-prototype\\hwg prototype\\assets\\player and camera scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\player and camera scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\matchposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\PlayerInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\CameraHolder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\MatchPosition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\player and camera scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\matchposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\player and camera scripts\\matchposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\player and camera scripts\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\cameraholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\cameraholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\player and camera scripts\\cameraholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\player and camera scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\MatchPosition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MatchPosition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\CameraHolder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CameraHolder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\PlayerInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\PlayerInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,44 +58,48 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerInteraction.cs",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\PlayerInteraction.cs",
-              "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\PlayerInteraction.cs",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\PlayerInteraction.cs",
-              "RelativeToolTip": "Assets\\Player and Camera Scripts\\PlayerInteraction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Title": "MonsterNav.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\MonsterNav.cs",
+              "RelativeDocumentMoniker": "Assets\\General scripts\\MonsterNav.cs",
+              "ToolTip": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\MonsterNav.cs",
+              "RelativeToolTip": "Assets\\General scripts\\MonsterNav.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwD4AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T00:37:02.474Z",
+              "WhenOpened": "2026-02-22T21:46:44.091Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\PlayerInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\PlayerInteraction.cs",
+              "ToolTip": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\PlayerInteraction.cs",
+              "RelativeToolTip": "Assets\\Player and Camera Scripts\\PlayerInteraction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T00:37:02.474Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Movement.cs",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Movement.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\Movement.cs",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Movement.cs",
+              "ToolTip": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Movement.cs",
               "RelativeToolTip": "Assets\\Player and Camera Scripts\\Movement.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAowKQAAACJAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T00:30:49.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "MatchPosition.cs",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\MatchPosition.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\MatchPosition.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\MatchPosition.cs",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\MatchPosition.cs",
+              "ToolTip": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\MatchPosition.cs",
               "RelativeToolTip": "Assets\\Player and Camera Scripts\\MatchPosition.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -104,11 +107,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Interactable.cs",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Interactable.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Interactable.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\Interactable.cs",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Interactable.cs",
+              "ToolTip": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Interactable.cs",
               "RelativeToolTip": "Assets\\Player and Camera Scripts\\Interactable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -116,11 +119,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "CameraHolder.cs",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraHolder.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraHolder.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\CameraHolder.cs",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraHolder.cs",
+              "ToolTip": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraHolder.cs",
               "RelativeToolTip": "Assets\\Player and Camera Scripts\\CameraHolder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -128,11 +131,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "CameraControl.cs",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraControl.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraControl.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\CameraControl.cs",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraControl.cs",
+              "ToolTip": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraControl.cs",
               "RelativeToolTip": "Assets\\Player and Camera Scripts\\CameraControl.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -143,57 +146,53 @@
               "DocumentIndex": 6,
               "Title": "MatchPosition.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\MatchPosition.cs",
-              "RelativeDocumentMoniker": "Assets\\MatchPosition.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\MatchPosition.cs",
               "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\MatchPosition.cs",
-              "RelativeToolTip": "Assets\\MatchPosition.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\MatchPosition.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T00:16:16.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "CameraHolder.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\CameraHolder.cs",
-              "RelativeDocumentMoniker": "Assets\\CameraHolder.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\CameraHolder.cs",
               "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\CameraHolder.cs",
-              "RelativeToolTip": "Assets\\CameraHolder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\CameraHolder.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T00:17:57.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Interactable.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Interactable.cs",
-              "RelativeDocumentMoniker": "Assets\\Interactable.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Interactable.cs",
               "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Interactable.cs",
-              "RelativeToolTip": "Assets\\Interactable.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBwAAAAJAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Interactable.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T00:08:51.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "PlayerInteraction.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\PlayerInteraction.cs",
-              "RelativeDocumentMoniker": "Assets\\PlayerInteraction.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\PlayerInteraction.cs",
               "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\PlayerInteraction.cs",
-              "RelativeToolTip": "Assets\\PlayerInteraction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAJAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\PlayerInteraction.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T23:59:43.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Movement.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Movement.cs",
-              "RelativeDocumentMoniker": "Assets\\Movement.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Movement.cs",
               "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Movement.cs",
-              "RelativeToolTip": "Assets\\Movement.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAhwJgAAAA9AAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Movement.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T23:57:29.681Z"
             }
