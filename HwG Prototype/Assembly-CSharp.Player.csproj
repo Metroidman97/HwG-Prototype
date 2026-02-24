@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Player and Camera Scripts\Movement.cs" />
     <Compile Include="Assets\Player and Camera Scripts\MatchPosition.cs" />
+    <Compile Include="Assets\General scripts\MonsterNav.cs" />
     <Compile Include="Assets\Player and Camera Scripts\CameraControl.cs" />
     <Compile Include="Assets\Player and Camera Scripts\CameraHolder.cs" />
     <Compile Include="Assets\Player and Camera Scripts\PlayerInteraction.cs" />
@@ -826,6 +827,10 @@
     </Reference>
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.ProBuilder">
