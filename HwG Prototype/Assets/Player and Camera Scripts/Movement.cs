@@ -37,6 +37,8 @@ public class Movement : MonoBehaviour
 
     Vector3 moveDirection;
 
+    public GameObject monster;
+
     Rigidbody rb;
 
     public MovementState state;
@@ -134,6 +136,12 @@ public class Movement : MonoBehaviour
         if (Input.GetKeyUp(crouchKey))
         {
             transform.localScale = new Vector3(transform.localScale.x, startYScale, transform.localScale.z);
+        }
+
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            monster.SetActive(false);
+
         }
     }
 
