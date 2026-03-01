@@ -11,6 +11,8 @@ public class PauseManager : MonoBehaviour
     public static bool isPaused = false;
     public static bool inSettings = false;
     public static bool inConfirmation = false;
+    public  AudioLowPassFilter lowPassFilter;
+    public AudioHighPassFilter highPassFilter;
 
     [Header("UI Elements to connect")]
     public GameObject PauseMenu;
@@ -50,6 +52,8 @@ public class PauseManager : MonoBehaviour
     {
         Debug.Log("pause");
         PauseMenu.SetActive(true);
+        lowPassFilter.enabled = true;
+        highPassFilter.enabled = true;
         Time.timeScale = 0f;
         isPaused = true;
         Cursor.lockState = CursorLockMode.None;
@@ -60,6 +64,8 @@ public class PauseManager : MonoBehaviour
     {
         Debug.Log("unpause");
         PauseMenu.SetActive(false);
+        lowPassFilter.enabled = false;
+        highPassFilter.enabled = false;
         Time.timeScale = 1f;
         isPaused = false;
         Cursor.lockState = CursorLockMode.Locked;
