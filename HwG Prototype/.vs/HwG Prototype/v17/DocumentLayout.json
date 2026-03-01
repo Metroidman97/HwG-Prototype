@@ -1,66 +1,64 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\",
+  "WorkspaceRootPath": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|d:\\learning folder\\github\\hwg-prototype\\hwg prototype\\assets\\general scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|d:\\learning folder\\github\\hwg-prototype\\hwg prototype\\assets\\general scripts\\soundmixermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\soundmixermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\player and camera scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\monsternav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\monsternav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\monsternav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\PlayerInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\PlayerInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\PlayerInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\CameraHolder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CameraHolder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\CameraHolder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\MatchPosition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MatchPosition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\MatchPosition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\player and camera scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\matchposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\matchposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\player and camera scripts\\matchposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\player and camera scripts\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\cameraholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\cameraholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\player and camera scripts\\cameraholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\player and camera scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\CutsceneTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CutsceneTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\CutsceneTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,61 +68,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SoundMixerManager.cs",
+              "DocumentMoniker": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\SoundMixerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\General scripts\\SoundMixerManager.cs",
+              "ToolTip": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\SoundMixerManager.cs",
+              "RelativeToolTip": "Assets\\General scripts\\SoundMixerManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T21:19:56.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Lit.shader",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "DocumentMoniker": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "ToolTip": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-03-01T20:02:45.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T20:02:45.156Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PauseManager.cs",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\PauseManager.cs",
+              "DocumentMoniker": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\PauseManager.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\PauseManager.cs",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\PauseManager.cs",
+              "ToolTip": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\PauseManager.cs",
               "RelativeToolTip": "Assets\\General scripts\\PauseManager.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAA9wEMAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T00:54:19.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CutsceneTrigger.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\CutsceneTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\CutsceneTrigger.cs",
               "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\CutsceneTrigger.cs",
-              "RelativeToolTip": "Assets\\CutsceneTrigger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T05:04:42.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MonsterNav.cs",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\MonsterNav.cs",
+              "DocumentMoniker": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\MonsterNav.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\MonsterNav.cs",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\MonsterNav.cs",
+              "ToolTip": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\MonsterNav.cs",
               "RelativeToolTip": "Assets\\General scripts\\MonsterNav.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -132,11 +132,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PlayerInteraction.cs",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\PlayerInteraction.cs",
+              "DocumentMoniker": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\PlayerInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\PlayerInteraction.cs",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\PlayerInteraction.cs",
+              "ToolTip": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\PlayerInteraction.cs",
               "RelativeToolTip": "Assets\\Player and Camera Scripts\\PlayerInteraction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -144,11 +144,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Movement.cs",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Movement.cs",
+              "DocumentMoniker": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\Movement.cs",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Movement.cs",
+              "ToolTip": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Movement.cs",
               "RelativeToolTip": "Assets\\Player and Camera Scripts\\Movement.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAUwCcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -156,11 +156,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "MatchPosition.cs",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\MatchPosition.cs",
+              "DocumentMoniker": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\MatchPosition.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\MatchPosition.cs",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\MatchPosition.cs",
+              "ToolTip": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\MatchPosition.cs",
               "RelativeToolTip": "Assets\\Player and Camera Scripts\\MatchPosition.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -168,11 +168,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Interactable.cs",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Interactable.cs",
+              "DocumentMoniker": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Interactable.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\Interactable.cs",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Interactable.cs",
+              "ToolTip": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Interactable.cs",
               "RelativeToolTip": "Assets\\Player and Camera Scripts\\Interactable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -180,11 +180,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CameraHolder.cs",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraHolder.cs",
+              "DocumentMoniker": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraHolder.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\CameraHolder.cs",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraHolder.cs",
+              "ToolTip": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraHolder.cs",
               "RelativeToolTip": "Assets\\Player and Camera Scripts\\CameraHolder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -192,11 +192,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CameraControl.cs",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraControl.cs",
+              "DocumentMoniker": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraControl.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\CameraControl.cs",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraControl.cs",
+              "ToolTip": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraControl.cs",
               "RelativeToolTip": "Assets\\Player and Camera Scripts\\CameraControl.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -204,56 +204,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MatchPosition.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\MatchPosition.cs",
-              "RelativeDocumentMoniker": "Assets\\MatchPosition.cs",
               "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\MatchPosition.cs",
-              "RelativeToolTip": "Assets\\MatchPosition.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T00:16:16.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CameraHolder.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\CameraHolder.cs",
-              "RelativeDocumentMoniker": "Assets\\CameraHolder.cs",
               "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\CameraHolder.cs",
-              "RelativeToolTip": "Assets\\CameraHolder.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T00:17:57.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Interactable.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Interactable.cs",
-              "RelativeDocumentMoniker": "Assets\\Interactable.cs",
               "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Interactable.cs",
-              "RelativeToolTip": "Assets\\Interactable.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T00:08:51.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerInteraction.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\PlayerInteraction.cs",
-              "RelativeDocumentMoniker": "Assets\\PlayerInteraction.cs",
               "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\PlayerInteraction.cs",
-              "RelativeToolTip": "Assets\\PlayerInteraction.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T23:59:43.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Movement.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Movement.cs",
-              "RelativeDocumentMoniker": "Assets\\Movement.cs",
               "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Movement.cs",
-              "RelativeToolTip": "Assets\\Movement.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T23:57:29.681Z"
             }
