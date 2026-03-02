@@ -16,12 +16,12 @@ public class MonsterNav : MonoBehaviour
     private int destPoint = 0;
     private NavMeshAgent agent;
 
-    private float waitTime = 2f;
-    private bool  isWaiting;
-    private float detectionRange = 5f;
-    private float viewAngle = 90f;
-    private float losePlayerTime = 3f;
-    private float timeSincelostPlayer;
+    [SerializeField] private float waitTime = 2f;
+    [SerializeField] private bool  isWaiting;
+    [SerializeField] private float detectionRange = 5f;
+    [SerializeField] private float viewAngle = 90f;
+    [SerializeField] private float losePlayerTime = 3f;
+    [SerializeField] private float timeSincelostPlayer;
 
     private EnemyState state = EnemyState.Patrolling;
 
@@ -143,7 +143,7 @@ public class MonsterNav : MonoBehaviour
         {
             return hit.transform == player;
         }
-
+        Debug.DrawRay(transform.position, playerDirection, Color.green);
         return true;
     }
 
