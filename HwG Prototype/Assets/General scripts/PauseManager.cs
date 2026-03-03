@@ -25,6 +25,7 @@ public class PauseManager : MonoBehaviour
     public Volume postProcessingVolume;
     private Bloom _bloom;
     private FilmGrain _filmGrain;
+    private ColorAdjustments _colorAdjustments;
 
     [Header("Camera to connect")]
     public Camera mainCamera;
@@ -32,13 +33,16 @@ public class PauseManager : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1f;
+        // get overrides from the GobalVolume to use in settings
         postProcessingVolume.profile.TryGet(out _bloom);
         postProcessingVolume.profile.TryGet(out _filmGrain);
+        postProcessingVolume.profile.TryGet(out _colorAdjustments);
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Pause/Unpause unless in the settings menu or a confirmation window is up, in which case go back to the pause menu
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             if (inConfirmation)
@@ -60,6 +64,7 @@ public class PauseManager : MonoBehaviour
         }
     }
 
+    //Activates the pause menu, filters, and mouse cursor. Stops time from progressing
     void Pause()
     {
         Debug.Log("pause");
@@ -72,6 +77,7 @@ public class PauseManager : MonoBehaviour
         Cursor.visible = true;
     }
 
+    //deactivates pause menu, filters, and relocks mouse cursor. Time resumes
     public void Unpause()
     {
         Debug.Log("unpause");
@@ -84,7 +90,7 @@ public class PauseManager : MonoBehaviour
         Cursor.visible = false;
     }
 
-    //Allows buttons and other scripts to change the inSettings variable
+    //Allows buttons and other scripts to change the inSettings/inConfirmation variables
     public void Settings(bool enable)
     {
         inSettings = enable;
@@ -95,6 +101,7 @@ public class PauseManager : MonoBehaviour
         inConfirmation = enable;
     }
 
+    //Toggles bloom/film grain in GlobalVolume
     public void setBloom(bool enable)
     {
         _bloom.active = enable;
@@ -105,6 +112,13 @@ public class PauseManager : MonoBehaviour
         _filmGrain.active = enable;
     }
 
+    public void setPostExposure(float value)
+    {
+        ;
+        _colorAdjustments.postExposure.value = value;
+    }
+
+    //Adjusts the camera's FOV within the valid slider values
     public void setFOV(float fov)
     {
         mainCamera.fieldOfView = fov;
