@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\death.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|c:\\users\\valen\\hwg-prototype\\hwg prototype\\assets\\player and camera scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\player and camera scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -94,6 +94,19 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-03-01T20:02:45.156Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
@@ -112,18 +125,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T21:19:56.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Lit.shader",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-03-01T20:02:45.156Z"
             },
             {
               "$type": "Document",
@@ -231,8 +232,7 @@
               "RelativeToolTip": "Assets\\Player and Camera Scripts\\CameraControl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T00:26:03.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T00:26:03.561Z"
             },
             {
               "$type": "Document",

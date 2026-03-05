@@ -37,11 +37,11 @@ public class DEATH : MonoBehaviour
     {
  
 
-        Transform camTransform = cameraTransform != null ? cameraTransform : playerCamera.transform;
+        
+        Transform camTransform = playerCamera.transform;
 
         Vector3 direction = alienHead.transform.position - camTransform.position;
-        if (direction.sqrMagnitude <= Mathf.Epsilon)
-            yield break;
+        
 
         Quaternion startRot = playerCamera.transform.rotation;
         Quaternion targetRot = Quaternion.LookRotation(direction, Vector3.up);
