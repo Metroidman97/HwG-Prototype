@@ -22,6 +22,9 @@ public class MonsterNav : MonoBehaviour
     [SerializeField] private float viewAngle = 90f;
     [SerializeField] private float losePlayerTime = 3f;
     [SerializeField] private float timeSincelostPlayer;
+    [SerializeField] private float chaseSpeed = 4.5f;
+
+    private float defaultSpeed;
 
     private EnemyState state = EnemyState.Patrolling;
 
@@ -29,6 +32,7 @@ public class MonsterNav : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        defaultSpeed = agent.speed;
         //agent.autoBraking = false;
         GotoNextPoint();
     }
@@ -56,6 +60,7 @@ public class MonsterNav : MonoBehaviour
                     if (timeSincelostPlayer >= losePlayerTime)
                     {
                         state = EnemyState.Patrolling;
+                        agent.speed = defaultSpeed;
                         GotoClosestPoint();
                     }
                 }
@@ -150,5 +155,6 @@ public class MonsterNav : MonoBehaviour
     void ChasePlayer()
     {
         agent.destination = player.position;
+        agent.speed = chaseSpeed;
     }
 }
