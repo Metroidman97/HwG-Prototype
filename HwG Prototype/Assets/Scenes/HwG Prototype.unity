@@ -12050,6 +12050,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_Y_UP (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e555e2da9acfce64ca3a39ac90de92ee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -16973,6 +16977,80 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &962196754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 962196755}
+  - component: {fileID: 962196757}
+  - component: {fileID: 962196756}
+  m_Layer: 0
+  m_Name: DeathCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &962196755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962196754}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 924499532}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &962196756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962196754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c66bb20387cd36643b5185b81e7bc03d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCollider: {fileID: 1678830294219547747}
+  player: {fileID: 6920568869533040744}
+  playerCamera: {fileID: 5169358532899999051}
+  cameraTransform: {fileID: 169336682013119583}
+  deathCollider: {fileID: 962196757}
+  alien: {fileID: 924499531}
+  alienHead: {fileID: 1253895220}
+  rotationSpeed: 90
+--- !u!65 &962196757
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962196754}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.6533568, y: 4.324071, z: 3.8453796}
+  m_Center: {x: 0.041160226, y: 1.662036, z: 0.18065894}
 --- !u!1001 &986122586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21032,6 +21110,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1299741218451238982, guid: 6287d12683b98a54a88dce3f089b34d0, type: 3}
+--- !u!1 &1253895220 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6543916107878460146, guid: e555e2da9acfce64ca3a39ac90de92ee, type: 3}
+  m_PrefabInstance: {fileID: 1767262491}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1254959813
 GameObject:
   m_ObjectHideFlags: 0
@@ -27218,7 +27301,7 @@ PrefabInstance:
       objectReference: {fileID: 110001373}
     - target: {fileID: -8679921383154817045, guid: e555e2da9acfce64ca3a39ac90de92ee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -58.98
+      value: -57.889
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e555e2da9acfce64ca3a39ac90de92ee, type: 3}
       propertyPath: m_LocalPosition.y
@@ -27266,6 +27349,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e555e2da9acfce64ca3a39ac90de92ee, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1558811778}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e555e2da9acfce64ca3a39ac90de92ee, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 962196755}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e555e2da9acfce64ca3a39ac90de92ee, type: 3}
       insertIndex: -1
@@ -32396,6 +32482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_Y_UP
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e555e2da9acfce64ca3a39ac90de92ee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -32903,7 +32993,7 @@ Transform:
   m_GameObject: {fileID: 1672705587156081948}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.22259903, y: 0.37617016, z: 0.46585}
+  m_LocalPosition: {x: -0.714, y: 0.37617016, z: 0.46585}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32933,7 +33023,7 @@ Transform:
   m_GameObject: {fileID: 6920568869533040744}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.04, y: 1.62, z: 5.85}
+  m_LocalPosition: {x: -11.69, y: 1.62, z: -1.49}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
