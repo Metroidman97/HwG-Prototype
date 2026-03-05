@@ -1,4 +1,5 @@
 using UnityEngine;
+using static Unity.VisualScripting.Member;
 
 public class Movement : MonoBehaviour
 {
@@ -29,7 +30,13 @@ public class Movement : MonoBehaviour
     public float crouchSpeed;
     public float crouchYScale;
     private float startYScale;
-    
+
+    [Header("Sound")]
+    public AudioSource footstepSound;
+    public AudioClip walkSound;
+    public AudioClip sprintSound;
+    public AudioClip crouchSound;
+
     public Transform orientation;
 
     float horizontalInput;
@@ -58,17 +65,23 @@ public class Movement : MonoBehaviour
         {
             state = MovementState.sprinting;
             moveSpeed = sprintSpeed;
+            footstepSound.clip = sprintSound;
+  
         }
 
         else if (Input.GetKey(crouchKey))
         {
             state = MovementState.crouching;
             moveSpeed = crouchSpeed;
+            footstepSound.clip = crouchSound;
+               
         }
         else if (Grounded == true)
         {
             state = MovementState.walking;
             moveSpeed = walkSpeed;
+            footstepSound.clip = walkSound;
+            
         }
 
         else
@@ -85,6 +98,7 @@ public class Movement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
         readyToJump = true;
+        footstepSound.clip = walkSound;
 
         startYScale = transform.localScale.y;
     }
@@ -102,6 +116,19 @@ public class Movement : MonoBehaviour
             rb.drag = GroundDrag;
         else
             rb.drag = 1f;
+
+
+        //This is how we handle footstep sounds.
+        if (rb.velocity.magnitude > .1f && footstepSound.isPlaying != true)
+        {
+            footstepSound.time = Random.Range(0f, footstepSound.clip.length);
+            footstepSound.Play(); 
+        }
+        if (rb.velocity.magnitude < .1f && footstepSound.isPlaying)
+        {
+            footstepSound.Stop();
+        }
+
 
 
     }
