@@ -11,6 +11,7 @@ public enum EnemyState
 }
 public class MonsterNav : MonoBehaviour
 {
+    public GameObject playerObject;
     public Transform player;
     public Transform[] points;
     private int destPoint = 0;
@@ -18,8 +19,8 @@ public class MonsterNav : MonoBehaviour
 
     [SerializeField] private float waitTime = 2f;
     [SerializeField] private bool  isWaiting;
-    [SerializeField] private float detectionRange = 5f;
-    [SerializeField] private float viewAngle = 90f;
+    [SerializeField] public float detectionRange = 5f;
+    [SerializeField] public float viewAngle = 90f;
     [SerializeField] private float losePlayerTime = 3f;
     [SerializeField] private float timeSincelostPlayer;
     [SerializeField] private float chaseSpeed = 4.5f;
@@ -41,35 +42,45 @@ public class MonsterNav : MonoBehaviour
     void Update()
     {
         float playerDistance = Vector3.Distance(player.position, transform.position);
-        
-        switch (state)
+
+        if (playerObject.GetComponent<Movement>().state == Movement.MovementState.sprinting)
         {
-            case EnemyState.Patrolling:
-                //GotoNextPoint();
-                Patrol();
-                if (playerDistance <= detectionRange && PlayerSeen())
-                {
-                    state = EnemyState.Following;
-                }
-                break;
-            case EnemyState.Following:
-                ChasePlayer();
-                if (!PlayerSeen())
-                {
-                    timeSincelostPlayer += Time.deltaTime;
-                    if (timeSincelostPlayer >= losePlayerTime)
-                    {
-                        state = EnemyState.Patrolling;
-                        agent.speed = defaultSpeed;
-                        GotoClosestPoint();
-                    }
-                }
-                else
-                {
-                    timeSincelostPlayer = 0f;
-                }
-                break;
+            detectionRange = 18f;
+            viewAngle = 480f;
         }
+        else
+        {
+            detectionRange = 10f;
+            viewAngle = 120f;
+        }
+            switch (state)
+            {
+                case EnemyState.Patrolling:
+                    //GotoNextPoint();
+                    Patrol();
+                    if (playerDistance <= detectionRange && PlayerSeen())
+                    {
+                        state = EnemyState.Following;
+                    }
+                    break;
+                case EnemyState.Following:
+                    ChasePlayer();
+                    if (!PlayerSeen())
+                    {
+                        timeSincelostPlayer += Time.deltaTime;
+                        if (timeSincelostPlayer >= losePlayerTime)
+                        {
+                            state = EnemyState.Patrolling;
+                            agent.speed = defaultSpeed;
+                            GotoClosestPoint();
+                        }
+                    }
+                    else
+                    {
+                        timeSincelostPlayer = 0f;
+                    }
+                    break;
+            }
     }
 
     void Patrol()

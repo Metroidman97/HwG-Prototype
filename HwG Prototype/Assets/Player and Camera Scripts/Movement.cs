@@ -26,6 +26,9 @@ public class Movement : MonoBehaviour
     public KeyCode sprintKey = KeyCode.LeftShift;
     public KeyCode crouchKey = KeyCode.LeftControl;
 
+    [Header("Controller")]
+    
+
     [Header("Crouching")]
     public float crouchSpeed;
     public float crouchYScale;
@@ -44,7 +47,7 @@ public class Movement : MonoBehaviour
 
     Vector3 moveDirection;
 
-    public GameObject monster;
+    public GameObject timeline;
 
     Rigidbody rb;
 
@@ -58,15 +61,15 @@ public class Movement : MonoBehaviour
         crouching
     }
 
-   private void StateHandler()
+    private void StateHandler()
     {
         // This is how we change movement speed depending on state.
-        if( Grounded && Input.GetKey(sprintKey) && state != MovementState.crouching)
+        if (Grounded && Input.GetKey(sprintKey) && state != MovementState.crouching)
         {
             state = MovementState.sprinting;
             moveSpeed = sprintSpeed;
             footstepSound.clip = sprintSound;
-  
+
         }
 
         else if (Input.GetKey(crouchKey))
@@ -74,24 +77,24 @@ public class Movement : MonoBehaviour
             state = MovementState.crouching;
             moveSpeed = crouchSpeed;
             footstepSound.clip = crouchSound;
-               
+
         }
         else if (Grounded == true)
         {
             state = MovementState.walking;
             moveSpeed = walkSpeed;
             footstepSound.clip = walkSound;
-            
+
         }
 
         else
         {
             state = MovementState.air;
         }
-        
+
     }
 
-    
+
 
     private void Start()
     {
@@ -106,7 +109,7 @@ public class Movement : MonoBehaviour
     private void Update()
     {
         MyInput();
-        SpeedControl(); 
+        SpeedControl();
         StateHandler();
         // GROUND CHECK
         Grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * .5f + .2f, whatisGround);
@@ -122,7 +125,7 @@ public class Movement : MonoBehaviour
         if (rb.velocity.magnitude > .1f && footstepSound.isPlaying != true)
         {
             footstepSound.time = Random.Range(0f, footstepSound.clip.length);
-            footstepSound.Play(); 
+            footstepSound.Play();
         }
         if (rb.velocity.magnitude < .1f && footstepSound.isPlaying)
         {
@@ -135,7 +138,7 @@ public class Movement : MonoBehaviour
     private void FixedUpdate()
     {
         MovePlayer();
-        
+
     }
     private void MyInput()
     {
@@ -144,7 +147,7 @@ public class Movement : MonoBehaviour
 
         // Jumping input
 
-        if(Input.GetKey(jumpKey) &&readyToJump && Grounded)
+        if (Input.GetKey(jumpKey) && readyToJump && Grounded || Input.GetKey(KeyCode.Joystick1Button0) && readyToJump && Grounded)
         {
             readyToJump = false;
 
@@ -154,22 +157,23 @@ public class Movement : MonoBehaviour
         }
         // crouching input
 
-        if (Input.GetKeyDown(crouchKey))
+
+        if (Input.GetKeyDown(crouchKey) || Input.GetKeyDown(KeyCode.Joystick1Button1))
         {
             transform.localScale = new Vector3(transform.localScale.x, crouchYScale, transform.localScale.z);
             rb.AddForce(Vector3.down *5f,ForceMode.Impulse);
+           
+
         }
 
-        if (Input.GetKeyUp(crouchKey))
+        if (Input.GetKeyUp(crouchKey) || Input.GetKeyUp(KeyCode.Joystick1Button1))
         {
             transform.localScale = new Vector3(transform.localScale.x, startYScale, transform.localScale.z);
         }
 
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            monster.SetActive(false);
+        
 
-        }
+
     }
 
     private void MovePlayer()
