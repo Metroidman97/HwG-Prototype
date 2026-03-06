@@ -64,7 +64,9 @@ public class DEATH : MonoBehaviour
         deathTimeline.Play();
         yield return new WaitForSeconds(4f);
         fadeInanimator.SetTrigger("FadeIn");
-        
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
     }
 
 
