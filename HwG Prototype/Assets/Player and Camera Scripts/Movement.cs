@@ -47,7 +47,7 @@ public class Movement : MonoBehaviour
 
     Vector3 moveDirection;
 
-    public GameObject monster;
+    public GameObject timeline;
 
     Rigidbody rb;
 
@@ -174,11 +174,6 @@ public class Movement : MonoBehaviour
         
 
 
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            monster.SetActive(false);
-
-        }
     }
 
     private void MovePlayer()
