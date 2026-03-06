@@ -4,6 +4,7 @@ using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Animations;
+using UnityEngine.Playables;
 using static UnityEngine.GraphicsBuffer;
 
 public class DEATH : MonoBehaviour
@@ -16,7 +17,9 @@ public class DEATH : MonoBehaviour
     public Collider deathCollider;
     public GameObject alien;
     public GameObject alienHead;
-    public float rotationSpeed = .00001f; // Rotation speed in degrees per second
+    public float rotationSpeed = .00001f; // Rotation speed is being weird so float is really really small for comfort
+    public PlayableDirector deathTimeline;
+    public Animator fadeInanimator;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -26,7 +29,7 @@ public class DEATH : MonoBehaviour
             playerCamera.GetComponent<CameraControl>().enabled = false;
             alien.GetComponent<MonsterNav>().enabled = false;
             alien.GetComponent<NavMeshAgent>().enabled = false;
-            StartCoroutine(RotateCameraToAlien(.3f)); // Rotate over 2 seconds
+            StartCoroutine(RotateCameraToAlien(.3f)); 
 
 
             Debug.Log("Player has died");
@@ -58,6 +61,9 @@ public class DEATH : MonoBehaviour
         }
 
         playerCamera.transform.rotation = targetRot;
+        deathTimeline.Play();
+        yield return new WaitForSeconds(4f);
+        fadeInanimator.SetTrigger("FadeIn");
         
     }
 
