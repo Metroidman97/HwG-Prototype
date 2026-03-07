@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\General scripts\SoundMixerManager.cs" />
+    <Compile Include="Assets\switchactivate.cs" />
     <Compile Include="Assets\Player and Camera Scripts\DEATH.cs" />
     <Compile Include="Assets\General scripts\SceneManager.cs" />
     <Compile Include="Assets\Player and Camera Scripts\Movement.cs" />
