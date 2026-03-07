@@ -13,13 +13,23 @@ public class PauseManager : MonoBehaviour
     public static bool isPaused = false;
     public static bool inSettings = false;
     public static bool inConfirmation = false;
-    public  AudioLowPassFilter lowPassFilter;
+    public static bool canPause = true;
+    public AudioLowPassFilter lowPassFilter;
     public AudioHighPassFilter highPassFilter;
 
     [Header("UI Elements to connect")]
     public GameObject PauseMenu;
     public Button SettingsMenuReturn;
     public Button ConfirmationMenuNo;
+    public Slider
+        masterVolume,
+        musicVolume,
+        sfxVolume,
+        fov,
+        brightness;
+    public Toggle
+        bloomToggle,
+        filmGrainToggle;
 
     [Header("PostProcessing to connect")]
     public Volume postProcessingVolume;
@@ -29,6 +39,9 @@ public class PauseManager : MonoBehaviour
 
     [Header("Camera to connect")]
     public Camera mainCamera;
+
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +50,8 @@ public class PauseManager : MonoBehaviour
         postProcessingVolume.profile.TryGet(out _bloom);
         postProcessingVolume.profile.TryGet(out _filmGrain);
         postProcessingVolume.profile.TryGet(out _colorAdjustments);
+        // Load settings for the game
+        LoadSettings();
     }
 
     // Update is called once per frame
@@ -101,7 +116,7 @@ public class PauseManager : MonoBehaviour
         inConfirmation = enable;
     }
 
-    //Toggles bloom/film grain in GlobalVolume
+    //sets bloom/film grain/postExposure in GlobalVolume
     public void setBloom(bool enable)
     {
         _bloom.active = enable;
@@ -122,5 +137,56 @@ public class PauseManager : MonoBehaviour
     public void setFOV(float fov)
     {
         mainCamera.fieldOfView = fov;
+    }
+
+    //Saves settings with PlayerPrefs, which saves each of these values with a specific key String. 
+    public void SaveSettings()
+    {
+        PlayerPrefs.SetInt("SavedSettings", 1);
+        PlayerPrefs.SetFloat("MasterVolume", masterVolume.value);
+        PlayerPrefs.SetFloat("MusicVolume", musicVolume.value);
+        PlayerPrefs.SetFloat("SFXVolume", sfxVolume.value);
+        PlayerPrefs.SetFloat("Fov", fov.value);
+        PlayerPrefs.SetFloat("brightness", brightness.value);
+        PlayerPrefs.SetInt("bloom", bloomToggle.isOn ? 1 : 0);
+        PlayerPrefs.SetInt("filmGrain", filmGrainToggle.isOn ? 1 : 0);
+    }
+
+    //Loads settings by invoking various UI elements in the settings menu.
+    public void LoadSettings()
+    {
+        // If settings haven't been saved before, save the default settings.
+        if (PlayerPrefs.HasKey("SavedSettings"))
+        {
+            masterVolume.value = PlayerPrefs.GetFloat("MasterVolume");
+            musicVolume.value = PlayerPrefs.GetFloat("MusicVolume");
+            sfxVolume.value = PlayerPrefs.GetFloat("SFXVolume");
+            fov.value = PlayerPrefs.GetFloat("Fov");
+            brightness.value = PlayerPrefs.GetFloat("brightness");
+            bloomToggle.isOn = PlayerPrefs.GetFloat("bloom") == 1;
+            filmGrainToggle.isOn = PlayerPrefs.GetFloat("filmGrain") == 1;
+        }
+        else
+        {
+            SaveSettings();
+        }
+    }
+
+    //Deletes ALL saved settings and resets them to their default values. IRREVERSIBLE USE WITH CAUTION
+    public void ResetSettings()
+    {
+        PlayerPrefs.DeleteAll();
+        masterVolume.value = 1f;
+        musicVolume.value = 1f;
+        sfxVolume.value = 1f;
+        fov.value = 84f;
+        brightness.value = 0.64f;
+        bloomToggle.isOn = true;
+        filmGrainToggle.isOn = true;
+    }
+
+    public void TogglePause(bool toggle)
+    {
+        canPause = toggle;
     }
 }
