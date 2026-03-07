@@ -9,7 +9,7 @@ public class PlayerInteraction : MonoBehaviour
     void Update()
     {
         CheckInteraction();
-        if (Input.GetKeyDown(KeyCode.E) && currentInteractable != null)
+        if (Input.GetKeyDown(KeyCode.E) && currentInteractable != null || Input.GetKeyDown(KeyCode.JoystickButton2) && currentInteractable != null) 
         {
             currentInteractable.Interact();
             Debug.Log("Interacted with " + currentInteractable.gameObject.name);
