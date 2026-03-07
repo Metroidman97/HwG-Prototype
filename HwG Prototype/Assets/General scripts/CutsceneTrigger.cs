@@ -12,17 +12,19 @@ public class CutsceneTrigger : MonoBehaviour
     public GameObject cameraObject;
     public GameObject playerObject;
     public GameObject skipText;
+    private bool isPlaying;
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
             timeline.Play();
             timelineCollider.enabled = false;
+            isPlaying = true;
         }
     }
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.X) && isPlaying == true || Input.GetKeyDown(KeyCode.JoystickButton2) && isPlaying == true)
         {
             timelineObject.SetActive(false);
             cameraObject.SetActive(false);

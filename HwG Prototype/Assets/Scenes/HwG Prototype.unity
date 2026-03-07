@@ -7137,7 +7137,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 424969806}
-  m_Material: {fileID: 13400000, guid: f1ec0452d9c9e224580b5b55c0a515f8, type: 2}
+  m_Material: {fileID: 13400000, guid: 503992d19963373448d5d31113d764ef, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -13102,6 +13102,8 @@ PlayableDirector:
     value: {fileID: 6920568869533040744}
   - key: {fileID: 5230239380167968807, guid: 7f6c277801c4c6642995901c9a9160ae, type: 2}
     value: {fileID: 1709808789}
+  - key: {fileID: 3106142232087338623, guid: 7f6c277801c4c6642995901c9a9160ae, type: 2}
+    value: {fileID: 806417671}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &640832066
@@ -13136,7 +13138,7 @@ MonoBehaviour:
   timelineObject: {fileID: 640832064}
   cameraObject: {fileID: 1693721033}
   playerObject: {fileID: 6920568869533040744}
-  skipText: {fileID: 0}
+  skipText: {fileID: 806417671}
 --- !u!65 &640832068
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16946,6 +16948,11 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &806417671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2912125856414419061, guid: 99f01f04dbe6d2146ae748b8f1cec164, type: 3}
+  m_PrefabInstance: {fileID: 663860443}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &813139547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28703,7 +28710,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1693721037}
   - component: {fileID: 1693721036}
-  - component: {fileID: 1693721035}
   - component: {fileID: 1693721034}
   - component: {fileID: 1693721038}
   m_Layer: 0
@@ -28734,14 +28740,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!81 &1693721035
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1693721033}
-  m_Enabled: 1
 --- !u!20 &1693721036
 Camera:
   m_ObjectHideFlags: 0
@@ -35664,7 +35662,7 @@ MonoBehaviour:
   sprintSound: {fileID: 8300000, guid: 92a42c928dc9b5d479aeca1d3fe61c93, type: 3}
   crouchSound: {fileID: 8300000, guid: e11c886f30e879541b50b774e7c82a47, type: 3}
   orientation: {fileID: 4379422996668377356}
-  timeline: {fileID: 0}
+  stickSprint: 0
   state: 0
 --- !u!33 &5870490058834961001
 MeshFilter:
@@ -36030,7 +36028,7 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 9d67268bcc6bf934294daa350b9ec453, type: 2}
-  m_InitialState: 1
+  m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0

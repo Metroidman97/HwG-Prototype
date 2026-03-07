@@ -45,9 +45,10 @@ public class Movement : MonoBehaviour
     float horizontalInput;
     float verticalInput;
 
+    public bool stickSprint;
     Vector3 moveDirection;
 
-    public GameObject timeline;
+    
 
     Rigidbody rb;
 
@@ -64,7 +65,7 @@ public class Movement : MonoBehaviour
     private void StateHandler()
     {
         // This is how we change movement speed depending on state.
-        if (Grounded && Input.GetKey(sprintKey) && state != MovementState.crouching)
+        if (Grounded && Input.GetKey(sprintKey) && state != MovementState.crouching || stickSprint == true)
         {
             state = MovementState.sprinting;
             moveSpeed = sprintSpeed;
@@ -72,7 +73,7 @@ public class Movement : MonoBehaviour
 
         }
 
-        else if (Input.GetKey(crouchKey))
+        else if (Input.GetKey(crouchKey) || Input.GetKey(KeyCode.JoystickButton1))
         {
             state = MovementState.crouching;
             moveSpeed = crouchSpeed;
@@ -171,7 +172,15 @@ public class Movement : MonoBehaviour
             transform.localScale = new Vector3(transform.localScale.x, startYScale, transform.localScale.z);
         }
 
-        
+        //Sprint but only for the controllers
+        if (Input.GetKeyDown(KeyCode.Joystick1Button8) && rb.velocity.magnitude > 3f)
+        {
+            stickSprint = true;
+        }
+        else if (rb.velocity.magnitude < .1f)
+        {
+            stickSprint = false; 
+        }
 
 
     }
