@@ -8,7 +8,6 @@ public class MainMenuManager : MonoBehaviour
     public void PlayGame()
     {
         SceneManager.LoadScene("HwG Prototype");
-
     }
     public void QuitGame()
     {
