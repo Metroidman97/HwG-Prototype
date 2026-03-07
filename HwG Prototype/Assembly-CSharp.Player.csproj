@@ -61,16 +61,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\General scripts\SoundMixerManager.cs" />
+    <Compile Include="Assets\Player and Camera Scripts\DEATH.cs" />
+    <Compile Include="Assets\General scripts\SceneManager.cs" />
     <Compile Include="Assets\Player and Camera Scripts\Movement.cs" />
     <Compile Include="Assets\Player and Camera Scripts\MatchPosition.cs" />
     <Compile Include="Assets\General scripts\MonsterNav.cs" />
     <Compile Include="Assets\Player and Camera Scripts\CameraControl.cs" />
+    <Compile Include="Assets\General scripts\Door.cs" />
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\Player and Camera Scripts\CameraHolder.cs" />
     <Compile Include="Assets\General scripts\CutsceneTrigger.cs" />
     <Compile Include="Assets\Player and Camera Scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\Player and Camera Scripts\Interactable.cs" />
-    <Compile Include="Assets\Door.cs" />
     <Compile Include="Assets\General scripts\PauseManager.cs" />
   </ItemGroup>
   <ItemGroup>
