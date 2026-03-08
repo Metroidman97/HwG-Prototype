@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\hand.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|c:\\users\\valen\\hwg-prototype\\hwg prototype\\assets\\copying.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\copying.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -101,8 +105,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Copying.shader",
+              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Copying.shader",
+              "RelativeDocumentMoniker": "Assets\\Copying.shader",
+              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Copying.shader",
+              "RelativeToolTip": "Assets\\Copying.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-03-08T16:11:57.678Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -111,9 +128,22 @@
               "RelativeDocumentMoniker": "Assets\\Hand.shader",
               "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Hand.shader",
               "RelativeToolTip": "Assets\\Hand.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
               "WhenOpened": "2026-03-08T16:09:40.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-03-01T20:02:45.156Z",
               "EditorCaption": ""
             },
             {
@@ -126,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SceneLoader.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\SceneLoader.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\SceneLoader.cs",
@@ -138,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainMenuManager.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\MainMenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\MainMenuManager.cs",
@@ -150,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Door.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\Door.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\Door.cs",
@@ -162,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "switchactivate.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\switchactivate.cs",
               "RelativeDocumentMoniker": "Assets\\switchactivate.cs",
@@ -174,20 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Lit.shader",
-              "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
-              "ToolTip": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-03-01T20:02:45.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Interactable.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Interactable.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\Interactable.cs",
@@ -199,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CutsceneTrigger.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\CutsceneTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\CutsceneTrigger.cs",
@@ -211,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PauseManager.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\PauseManager.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\PauseManager.cs",
@@ -223,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CutsceneTrigger.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\CutsceneTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\CutsceneTrigger.cs",
@@ -235,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "MonsterNav.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\MonsterNav.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\MonsterNav.cs",
@@ -247,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PlayerInteraction.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\PlayerInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\PlayerInteraction.cs",
@@ -259,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Movement.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\Movement.cs",
@@ -271,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MatchPosition.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\MatchPosition.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\MatchPosition.cs",
@@ -283,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CameraControl.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraControl.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\CameraControl.cs",
@@ -295,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "SoundMixerManager.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\SoundMixerManager.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\SoundMixerManager.cs",
@@ -307,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Door.cs",
               "DocumentMoniker": "C:\\Users\\giga_\\OneDrive\\Desktop\\GitHub Projects\\Production Projects\\HwG-Prototype\\HwG Prototype\\Assets\\Door.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\giga_\\OneDrive\\Desktop\\GitHub Projects\\Production Projects\\HwG-Prototype\\HwG Prototype\\Assets\\Door.cs",
@@ -319,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CameraHolder.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\CameraHolder.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\CameraHolder.cs",
@@ -331,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "MatchPosition.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\MatchPosition.cs",
               "RelativeDocumentMoniker": "Assets\\MatchPosition.cs",
@@ -342,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CameraHolder.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\CameraHolder.cs",
               "RelativeDocumentMoniker": "Assets\\CameraHolder.cs",
@@ -353,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Interactable.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Interactable.cs",
               "RelativeDocumentMoniker": "Assets\\Interactable.cs",
@@ -364,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "PlayerInteraction.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\PlayerInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerInteraction.cs",
@@ -375,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Movement.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\HwG-Prototype\\HwG Prototype\\Assets\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Movement.cs",
