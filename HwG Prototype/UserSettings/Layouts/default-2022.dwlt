@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 5354
+  controlID: 112
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 47
+  controlID: 111
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 48
+  controlID: 49
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -301,8 +301,8 @@ MonoBehaviour:
     y: 0
     width: 591
     height: 603
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -448,7 +448,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: aab6ffffdeb6ffffe2b6ffff04f6ffff
+      m_ExpandedIDs: aaf9ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -878,7 +878,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.031634297, y: -0.95753735, z: 0.11577685, w: 0.26221883}
     speed: 2
-    m_Value: {x: 0.03163364, y: -0.9575175, z: 0.11577445, w: 0.26221338}
+    m_Value: {x: -0.03163364, y: 0.9575175, z: -0.11577445, w: -0.26221338}
   m_Size:
     m_Target: 6.308607
     speed: 2
@@ -1657,7 +1657,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Temp Models/Alien Nonsense
+    - Assets/Textures
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1665,17 +1665,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 78
   m_LastFolders:
-  - Assets/Temp Models/Alien Nonsense
+  - Assets/Textures
   m_LastFoldersGridSize: 78
   m_LastProjectPath: C:\Users\cosmi\OneDrive\Documents\GitHub\HallwayWithGuard\HwG-Prototype\HwG
     Prototype
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e47b0000
-    m_LastClickedID: 31716
-    m_ExpandedIDs: 00000000d4760000c278000000ca9a3b
+    scrollPos: {x: 0, y: 18}
+    m_SelectedIDs: b4750000
+    m_LastClickedID: 30132
+    m_ExpandedIDs: 00000000ca730000cc73000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1703,7 +1703,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b47a0000
     m_LastClickedID: 31412
-    m_ExpandedIDs: ffffffff00000000d4760000c2780000e47b0000
+    m_ExpandedIDs: 0000000010320000ca730000cc730000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1747,7 +1747,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1795,7 +1795,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -53154
+  m_LastSelectedObjectID: -3560
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
