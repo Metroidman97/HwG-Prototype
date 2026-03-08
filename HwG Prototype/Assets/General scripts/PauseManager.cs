@@ -13,14 +13,16 @@ public class PauseManager : MonoBehaviour
     public static bool isPaused = false;
     public static bool inSettings = false;
     public static bool inConfirmation = false;
-    public static bool canPause = true;
+    public bool canPause = true;
     public AudioLowPassFilter lowPassFilter;
     public AudioHighPassFilter highPassFilter;
 
     [Header("UI Elements to connect")]
     public GameObject PauseMenu;
-    public Button SettingsMenuReturn;
-    public Button ConfirmationMenuNo;
+    public Button
+        SettingsMenuReturn,
+        ConfirmationMenuNo,
+        PauseMenuResume;
     public Slider
         masterVolume,
         musicVolume,
@@ -58,7 +60,7 @@ public class PauseManager : MonoBehaviour
     void Update()
     {
         // Pause/Unpause unless in the settings menu or a confirmation window is up, in which case go back to the pause menu
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (canPause && Input.GetKeyDown(KeyCode.Escape))
         {
             if (inConfirmation)
             {
@@ -90,6 +92,7 @@ public class PauseManager : MonoBehaviour
         isPaused = true;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+        SelectInMenu(PauseMenuResume);
     }
 
     //deactivates pause menu, filters, and relocks mouse cursor. Time resumes
@@ -129,14 +132,16 @@ public class PauseManager : MonoBehaviour
 
     public void setPostExposure(float value)
     {
-        ;
         _colorAdjustments.postExposure.value = value;
     }
 
     //Adjusts the camera's FOV within the valid slider values
     public void setFOV(float fov)
     {
-        mainCamera.fieldOfView = fov;
+        if (mainCamera != null)
+        {
+            mainCamera.fieldOfView = fov;
+        }
     }
 
     //Saves settings with PlayerPrefs, which saves each of these values with a specific key String. 
@@ -163,8 +168,8 @@ public class PauseManager : MonoBehaviour
             sfxVolume.value = PlayerPrefs.GetFloat("SFXVolume");
             fov.value = PlayerPrefs.GetFloat("Fov");
             brightness.value = PlayerPrefs.GetFloat("brightness");
-            bloomToggle.isOn = PlayerPrefs.GetFloat("bloom") == 1;
-            filmGrainToggle.isOn = PlayerPrefs.GetFloat("filmGrain") == 1;
+            bloomToggle.isOn = PlayerPrefs.GetInt("bloom") == 1;
+            filmGrainToggle.isOn = PlayerPrefs.GetInt("filmGrain") == 1;
         }
         else
         {
@@ -185,8 +190,18 @@ public class PauseManager : MonoBehaviour
         filmGrainToggle.isOn = true;
     }
 
+    //Toggles whether or not the player can pause the game (used to prevent breaking stuff durring gameplay)
     public void TogglePause(bool toggle)
     {
         canPause = toggle;
+    }
+
+    //Selects the button passed into the method. Nothing happens if the button is not active or not set.
+    public void SelectInMenu(Button button)
+    {
+        if (button != null && button.IsActive())
+        {
+            button.Select();
+        }
     }
 }
