@@ -18,7 +18,7 @@ public class MonsterNav : MonoBehaviour
     private NavMeshAgent agent;
 
     [SerializeField] private float waitTime = 2f;
-    [SerializeField] private bool  isWaiting;
+    [SerializeField] public bool  isWaiting;
     [SerializeField] public float detectionRange = 5f;
     [SerializeField] public float viewAngle = 90f;
     [SerializeField] private float losePlayerTime = 3f;
