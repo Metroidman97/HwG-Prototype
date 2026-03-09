@@ -12,6 +12,7 @@ public class ChaseTrigger : MonoBehaviour
     void Start()
     {
         chase = alien.GetComponent<Chase>();
+        alien.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,6 +25,7 @@ public class ChaseTrigger : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            alien.SetActive(true);
             chase.isChasing = true;
             Destroy(this.gameObject);
         }

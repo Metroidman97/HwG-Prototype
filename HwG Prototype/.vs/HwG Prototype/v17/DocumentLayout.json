@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|c:\\users\\owner\\onedrive\\documents\\college stuff\\ucf\\unity temp\\hwg\\hwg-prototype\\hwg prototype\\assets\\general scripts\\chase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\chase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\chasetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\chasetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|c:\\users\\owner\\onedrive\\documents\\college stuff\\ucf\\unity temp\\hwg\\hwg-prototype\\hwg prototype\\assets\\general scripts\\chasetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\chasetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|c:\\users\\owner\\onedrive\\documents\\college stuff\\ucf\\unity temp\\hwg\\hwg-prototype\\hwg prototype\\assets\\general scripts\\chase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\chase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\monsternav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,24 +107,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ChaseTrigger.cs",
               "DocumentMoniker": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\ChaseTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\ChaseTrigger.cs",
               "ToolTip": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\ChaseTrigger.cs",
               "RelativeToolTip": "Assets\\General scripts\\ChaseTrigger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T01:37:45.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Chase.cs",
               "DocumentMoniker": "C:\\Users\\Owner\\OneDrive\\Documents\\College stuff\\UCF\\Unity temp\\HWG\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\Chase.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\Chase.cs",
@@ -271,8 +271,7 @@
               "RelativeToolTip": "Assets\\General scripts\\MonsterNav.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T21:46:44.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T21:46:44.091Z"
             },
             {
               "$type": "Document",
