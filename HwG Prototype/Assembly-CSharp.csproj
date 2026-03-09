@@ -71,11 +71,13 @@
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\Player and Camera Scripts\CameraHolder.cs" />
     <Compile Include="Assets\General scripts\SceneLoader.cs" />
+    <Compile Include="Assets\General scripts\ChaseTrigger.cs" />
     <Compile Include="Assets\General scripts\CutsceneTrigger.cs" />
     <Compile Include="Assets\Player and Camera Scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\Player and Camera Scripts\Interactable.cs" />
     <Compile Include="Assets\General scripts\MainMenuManager.cs" />
     <Compile Include="Assets\General scripts\PauseManager.cs" />
+    <Compile Include="Assets\General scripts\Chase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
