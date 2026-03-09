@@ -9,17 +9,18 @@ public class Paper : MonoBehaviour
     public GameObject player;
     public GameObject cameraController;
     public bool isLooking;
+    public AudioSource paperSound;
+    public PauseManager pause;
     // Start is called before the first frame update
 
     public void lookAtPage()
     {
-        Debug.Log("Hello");
         canvas.SetActive(true);
         player.SetActive(false);
         cameraController.GetComponent<CameraControl>().enabled = false;
         isLooking = true;
-
-
+        paperSound.Play();
+        pause.canPause = false;
 
     }
     public void Update()
@@ -27,12 +28,14 @@ public class Paper : MonoBehaviour
         if (isLooking)
         {
 
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Escape))
             {
                 cameraController.GetComponent<CameraControl>().enabled = true;
                 canvas.SetActive(false);
                 player.SetActive(true);
                 isLooking=false;
+                pause.canPause = true;
+                paperSound.Play();
             }
         }
 

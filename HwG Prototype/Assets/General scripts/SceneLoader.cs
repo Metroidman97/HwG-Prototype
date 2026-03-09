@@ -6,10 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public void restartScene()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    
 
     public Animator transition;
     public float transitionTime = 2f;
@@ -17,6 +14,7 @@ public class SceneLoader : MonoBehaviour
     public AudioSource transitionSFX;
     public string transitionTrigger;
 
+    
     //Loads Next Level in build
     public void LoadNextLevel()
     {
