@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\soundmixermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\soundmixermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|d:\\learning folder\\github\\hwg-prototype\\hwg prototype\\assets\\general scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|d:\\learning folder\\github\\hwg-prototype\\hwg prototype\\assets\\general scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\soundmixermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\soundmixermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning Folder\\GitHub\\rapid-prototype-1\\Rapid_Prototype_1\\Assets\\Scripts\\SceneLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -102,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -114,8 +114,7 @@
               "RelativeToolTip": "..\\..\\rapid-prototype-1\\Rapid_Prototype_1\\Assets\\Scripts\\SceneLoader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T20:20:57.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T20:20:57.687Z"
             },
             {
               "$type": "Document",
@@ -127,8 +126,7 @@
               "RelativeToolTip": "Assets\\Copying.shader",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-03-08T16:11:57.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T16:11:57.678Z"
             },
             {
               "$type": "Document",
@@ -144,26 +142,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SceneLoader.cs",
               "DocumentMoniker": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\SceneLoader.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\SceneLoader.cs",
               "ToolTip": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\SceneLoader.cs",
               "RelativeToolTip": "Assets\\General scripts\\SceneLoader.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T17:10:59.929Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainMenuManager.cs",
               "DocumentMoniker": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\MainMenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\MainMenuManager.cs",
               "ToolTip": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\MainMenuManager.cs",
               "RelativeToolTip": "Assets\\General scripts\\MainMenuManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T16:59:00.376Z",
               "EditorCaption": ""
@@ -224,7 +222,7 @@
               "RelativeDocumentMoniker": "Assets\\General scripts\\PauseManager.cs",
               "ToolTip": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\PauseManager.cs",
               "RelativeToolTip": "Assets\\General scripts\\PauseManager.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAUwK0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwF0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T00:54:19.139Z",
               "EditorCaption": ""
@@ -265,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SoundMixerManager.cs",
               "DocumentMoniker": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\SoundMixerManager.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\SoundMixerManager.cs",
@@ -273,8 +271,7 @@
               "RelativeToolTip": "Assets\\General scripts\\SoundMixerManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T21:19:56.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T21:19:56.076Z"
             },
             {
               "$type": "Document",
