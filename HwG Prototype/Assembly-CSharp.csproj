@@ -96,6 +96,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\QuickOutline\Readme.txt" />
+    <None Include="Assets\FX_Kandol_Pack\FX_lightning_II\Shaders\built-in\Flipbook_Effects_built-in.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
