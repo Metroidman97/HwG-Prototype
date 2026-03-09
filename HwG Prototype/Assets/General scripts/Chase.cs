@@ -6,6 +6,7 @@ public class Chase : MonoBehaviour
 {
     public bool isChasing = false;
     public float chaseSpeed = 3f;
+    public DEATH deathScript;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,10 @@ public class Chase : MonoBehaviour
     {
         if (isChasing)
             ChasePlayer();
+        if (deathScript.death == true)
+        {
+            isChasing = false;
+        }
     }
 
     // travel to z = -22

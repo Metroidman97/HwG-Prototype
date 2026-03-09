@@ -25,6 +25,7 @@ public class MonsterNav : MonoBehaviour
     [SerializeField] private float timeSincelostPlayer;
     [SerializeField] private float chaseSpeed = 4.5f;
 
+    public AudioSource chaseSound;
     private float defaultSpeed;
 
     private EnemyState state = EnemyState.Patrolling;
@@ -67,7 +68,8 @@ public class MonsterNav : MonoBehaviour
                     ChasePlayer();
                     if (!PlayerSeen())
                     {
-                        timeSincelostPlayer += Time.deltaTime;
+                    chaseSound.Play();
+                    timeSincelostPlayer += Time.deltaTime;
                         if (timeSincelostPlayer >= losePlayerTime)
                         {
                             state = EnemyState.Patrolling;

@@ -22,17 +22,19 @@ public class DEATH : MonoBehaviour
     public PlayableDirector deathTimeline;
     public Animator fadeInanimator;
     public AudioSource catchSound;
+    public bool death;
 
     public void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Player"))
         {
             player.GetComponent<Movement>().enabled = false;
+            player.GetComponent<AudioSource>().enabled = false;
             playerCamera.GetComponent<CameraControl>().enabled = false;
             alien.GetComponent<MonsterNav>().enabled = false;
             alien.GetComponent<NavMeshAgent>().enabled = false;
             StartCoroutine(RotateCameraToAlien(.3f)); 
-
+            death = true;
 
             Debug.Log("Player has died");
         }

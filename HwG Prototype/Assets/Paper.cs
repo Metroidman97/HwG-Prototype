@@ -10,6 +10,8 @@ public class Paper : MonoBehaviour
     public GameObject cameraController;
     public bool isLooking;
     public AudioSource paperSound;
+    public AudioClip paperSoundClip;
+    public AudioClip paperdown;
     public PauseManager pause;
     // Start is called before the first frame update
 
@@ -19,7 +21,7 @@ public class Paper : MonoBehaviour
         player.SetActive(false);
         cameraController.GetComponent<CameraControl>().enabled = false;
         isLooking = true;
-        paperSound.Play();
+        paperSound.PlayOneShot(paperSoundClip);
         pause.canPause = false;
 
     }
@@ -35,7 +37,7 @@ public class Paper : MonoBehaviour
                 player.SetActive(true);
                 isLooking=false;
                 pause.canPause = true;
-                paperSound.Play();
+                paperSound.PlayOneShot(paperdown);
             }
         }
 

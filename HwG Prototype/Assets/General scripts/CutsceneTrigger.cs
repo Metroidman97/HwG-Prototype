@@ -18,6 +18,7 @@ public class CutsceneTrigger : MonoBehaviour
     public MonsterNav monsterNav1;
     public MonsterNav monsterNav2;
     public MonsterNav monsterNav3;
+    public GameObject hand;
 
 
     private bool isPlaying;
@@ -41,6 +42,7 @@ public class CutsceneTrigger : MonoBehaviour
             cameraObject.SetActive(false);
             playerObject.SetActive(true);
             skipText.SetActive(false);
+            hand.SetActive(true);
             GameObject[] gameObjectArray = GameObject.FindGameObjectsWithTag("Delete");
 
             foreach (GameObject go in gameObjectArray)
