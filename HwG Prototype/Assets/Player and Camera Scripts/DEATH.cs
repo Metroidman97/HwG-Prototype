@@ -9,17 +9,19 @@ using static UnityEngine.GraphicsBuffer;
 
 public class DEATH : MonoBehaviour
 {
-
+    [Header("Player Connections")]
     public Collider playerCollider;
     public GameObject player;
     public Camera playerCamera;
     public Transform cameraTransform;
+    [Header("Alien Connections")]
     public Collider deathCollider;
     public GameObject alien;
     public GameObject alienHead;
     public float rotationSpeed = .00001f; // Rotation speed is being weird so float is really really small for comfort
     public PlayableDirector deathTimeline;
     public Animator fadeInanimator;
+    public AudioSource catchSound;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -59,7 +61,7 @@ public class DEATH : MonoBehaviour
             playerCamera.transform.rotation = Quaternion.Slerp(startRot, targetRot, t);
             yield return null;
         }
-
+        catchSound.Play();
         playerCamera.transform.rotation = targetRot;
         deathTimeline.Play();
         yield return new WaitForSeconds(4f);

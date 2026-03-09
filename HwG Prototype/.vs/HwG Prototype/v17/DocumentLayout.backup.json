@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|c:\\users\\valen\\onedrive\\desktop\\school\\hwg-prototype\\hwg prototype\\assets\\general scripts\\switchactivate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\switchactivate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\switchactivate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -121,7 +121,7 @@
               "RelativeDocumentMoniker": "Assets\\Paper.cs",
               "ToolTip": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\Paper.cs",
               "RelativeToolTip": "Assets\\Paper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T15:11:41.057Z",
               "EditorCaption": ""
@@ -202,8 +202,7 @@
               "RelativeToolTip": "Assets\\General scripts\\Door.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T16:17:02.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-07T16:17:02.586Z"
             },
             {
               "$type": "Document",
@@ -215,8 +214,7 @@
               "RelativeToolTip": "Assets\\General scripts\\switchactivate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T04:25:53.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T04:25:53.161Z"
             },
             {
               "$type": "Document",

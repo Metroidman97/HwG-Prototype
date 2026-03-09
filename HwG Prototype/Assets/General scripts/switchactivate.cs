@@ -7,11 +7,14 @@ public class switchactivate : MonoBehaviour
 {
     public Animator animator;
     public PlayableDirector Timeline;
-
+    public AudioSource switchSound;
+    public AudioSource music;
     public void flipSwitch()
     {
         animator.SetTrigger("Flip");
         RenderSettings.fog = false;
+        switchSound.Play();
+        music.Stop();
         Timeline.Play();
         StartCoroutine(goMainMenu());
     }

@@ -60,8 +60,8 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\General scripts\switchactivate.cs" />
     <Compile Include="Assets\General scripts\SoundMixerManager.cs" />
-    <Compile Include="Assets\switchactivate.cs" />
     <Compile Include="Assets\Player and Camera Scripts\DEATH.cs" />
     <Compile Include="Assets\Player and Camera Scripts\Movement.cs" />
     <Compile Include="Assets\Player and Camera Scripts\MatchPosition.cs" />
@@ -71,11 +71,14 @@
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\Player and Camera Scripts\CameraHolder.cs" />
     <Compile Include="Assets\General scripts\SceneLoader.cs" />
+    <Compile Include="Assets\General scripts\ChaseTrigger.cs" />
     <Compile Include="Assets\General scripts\CutsceneTrigger.cs" />
     <Compile Include="Assets\Player and Camera Scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\Player and Camera Scripts\Interactable.cs" />
     <Compile Include="Assets\General scripts\MainMenuManager.cs" />
     <Compile Include="Assets\General scripts\PauseManager.cs" />
+    <Compile Include="Assets\General scripts\Chase.cs" />
+    <Compile Include="Assets\Paper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -85,7 +88,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\QuickOutline\Resources\Shaders\OutlineMask.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\Copying.shader" />
+    <None Include="Assets\URP\Copying.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -94,6 +97,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\QuickOutline\Readme.txt" />
+    <None Include="Assets\FX_Kandol_Pack\FX_lightning_II\Shaders\built-in\Flipbook_Effects_built-in.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
@@ -101,7 +105,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\QuickOutline\Resources\Shaders\OutlineFill.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\Hand.shader" />
+    <None Include="Assets\URP\Hand.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>

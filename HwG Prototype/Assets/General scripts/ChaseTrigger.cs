@@ -5,7 +5,7 @@ using UnityEngine;
 public class ChaseTrigger : MonoBehaviour
 {
     public GameObject alien;
-
+    public SoundMixerManager soundMixerManager;
     private Chase chase;
 
     // Start is called before the first frame update
@@ -27,6 +27,7 @@ public class ChaseTrigger : MonoBehaviour
         {
             alien.SetActive(true);
             chase.isChasing = true;
+            soundMixerManager.DistortMusic();
             Destroy(this.gameObject);
         }
     }
