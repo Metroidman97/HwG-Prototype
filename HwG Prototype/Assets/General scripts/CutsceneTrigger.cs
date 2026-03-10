@@ -26,6 +26,9 @@ public class CutsceneTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            monsterNav1.isWaiting = false;
+            monsterNav2.isWaiting = false;
+            monsterNav3.isWaiting = false;
             timeline.Play();
             timelineCollider.enabled = false;
             

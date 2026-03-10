@@ -30,7 +30,7 @@ public class Paper : MonoBehaviour
         if (isLooking)
         {
 
-            if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.JoystickButton2))
             {
                 cameraController.GetComponent<CameraControl>().enabled = true;
                 canvas.SetActive(false);
