@@ -62,5 +62,5 @@ public class CutsceneTrigger : MonoBehaviour
 
         }
     }
-        
+       
 }

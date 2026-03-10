@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\cutscenetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\death.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\player and camera scripts\\death.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|c:\\users\\valen\\onedrive\\desktop\\school\\hwg-prototype\\hwg prototype\\assets\\general scripts\\cutscenetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\cutscenetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\paper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|c:\\users\\valen\\onedrive\\desktop\\school\\hwg-prototype\\hwg prototype\\assets\\general scripts\\switchactivate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\switchactivate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\switchactivate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\soundmixermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\soundmixermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\death.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\player and camera scripts\\death.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\chase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\chasetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\chasetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\assets\\player and camera scripts\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,10 +70,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\assets\\general scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5879BB45-AD76-8B7D-1C61-9BA58F861A93}|Assembly-CSharp.csproj|solutionrelative:assets\\general scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -131,32 +131,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "DEATH.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\DEATH.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\DEATH.cs",
               "ToolTip": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\DEATH.cs",
               "RelativeToolTip": "Assets\\Player and Camera Scripts\\DEATH.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T20:43:45.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Paper.cs",
-              "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\Paper.cs",
-              "RelativeDocumentMoniker": "Assets\\Paper.cs",
-              "ToolTip": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\Paper.cs",
-              "RelativeToolTip": "Assets\\Paper.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCAAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T15:11:41.057Z",
+              "WhenOpened": "2026-03-09T20:43:45.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "SceneLoader.cs",
               "DocumentMoniker": "D:\\Learning Folder\\GitHub\\rapid-prototype-1\\Rapid_Prototype_1\\Assets\\Scripts\\SceneLoader.cs",
               "ToolTip": "D:\\Learning Folder\\GitHub\\rapid-prototype-1\\Rapid_Prototype_1\\Assets\\Scripts\\SceneLoader.cs",
@@ -165,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Copying.shader",
               "DocumentMoniker": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\Copying.shader",
               "ToolTip": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\Copying.shader",
@@ -186,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "SceneLoader.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\SceneLoader.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\SceneLoader.cs",
@@ -194,11 +182,12 @@
               "RelativeToolTip": "Assets\\General scripts\\SceneLoader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T17:10:59.929Z"
+              "WhenOpened": "2026-03-07T17:10:59.929Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "MainMenuManager.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\MainMenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\MainMenuManager.cs",
@@ -210,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CutsceneTrigger.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\CutsceneTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\CutsceneTrigger.cs",
@@ -223,7 +212,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "PauseManager.cs",
+              "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\PauseManager.cs",
+              "RelativeDocumentMoniker": "Assets\\General scripts\\PauseManager.cs",
+              "ToolTip": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\PauseManager.cs",
+              "RelativeToolTip": "Assets\\General scripts\\PauseManager.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwD8AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T00:54:19.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Paper.cs",
+              "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\Paper.cs",
+              "RelativeDocumentMoniker": "Assets\\Paper.cs",
+              "ToolTip": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\Paper.cs",
+              "RelativeToolTip": "Assets\\Paper.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCAAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T15:11:41.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ChaseTrigger.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\ChaseTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\ChaseTrigger.cs",
@@ -235,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Credits.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\Credits.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\Credits.cs",
@@ -247,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Door.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\Door.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\Door.cs",
@@ -259,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "switchactivate.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\switchactivate.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\switchactivate.cs",
@@ -267,12 +281,11 @@
               "RelativeToolTip": "Assets\\General scripts\\switchactivate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T04:25:53.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T04:25:53.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "switchactivate.cs",
               "DocumentMoniker": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\switchactivate.cs",
               "ToolTip": "D:\\Learning Folder\\GitHub\\HwG-Prototype\\HwG Prototype\\Assets\\switchactivate.cs",
@@ -281,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Interactable.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\Player and Camera Scripts\\Interactable.cs",
               "RelativeDocumentMoniker": "Assets\\Player and Camera Scripts\\Interactable.cs",
@@ -293,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MonsterNav.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\MonsterNav.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\MonsterNav.cs",
@@ -305,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "SoundMixerManager.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\SoundMixerManager.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\SoundMixerManager.cs",
@@ -317,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Chase.cs",
               "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\Chase.cs",
               "RelativeDocumentMoniker": "Assets\\General scripts\\Chase.cs",
@@ -329,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Flipbook_Effects_built-in.shader",
               "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\FX_Kandol_Pack\\FX_lightning_II\\Shaders\\built-in\\Flipbook_Effects_built-in.shader",
               "RelativeDocumentMoniker": "Assets\\FX_Kandol_Pack\\FX_lightning_II\\Shaders\\built-in\\Flipbook_Effects_built-in.shader",
@@ -338,18 +351,6 @@
               "ViewState": "AgIAACcAAAAAAAAAAAAAACkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
               "WhenOpened": "2026-03-09T04:15:42.813Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PauseManager.cs",
-              "DocumentMoniker": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\PauseManager.cs",
-              "RelativeDocumentMoniker": "Assets\\General scripts\\PauseManager.cs",
-              "ToolTip": "C:\\Users\\Valen\\OneDrive\\Desktop\\School\\HwG-Prototype\\HwG Prototype\\Assets\\General scripts\\PauseManager.cs",
-              "RelativeToolTip": "Assets\\General scripts\\PauseManager.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAIwF0AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T00:54:19.139Z"
             },
             {
               "$type": "Document",

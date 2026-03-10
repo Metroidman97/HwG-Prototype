@@ -40271,6 +40271,9 @@ MonoBehaviour:
   walkSound: {fileID: 8300000, guid: 5f4e88bf08566ea45b5bc3f95b042344, type: 3}
   sprintSound: {fileID: 8300000, guid: 92a42c928dc9b5d479aeca1d3fe61c93, type: 3}
   crouchSound: {fileID: 8300000, guid: e11c886f30e879541b50b774e7c82a47, type: 3}
+  monsterNav1: {fileID: 1922751010}
+  monsterNav2: {fileID: 1914784058}
+  monsterNav3: {fileID: 1044240346}
   orientation: {fileID: 4379422996668377356}
   stickSprint: 0
   state: 0

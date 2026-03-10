@@ -40,6 +40,10 @@ public class Movement : MonoBehaviour
     public AudioClip sprintSound;
     public AudioClip crouchSound;
 
+    public MonsterNav monsterNav1;
+    public MonsterNav monsterNav2;
+    public MonsterNav monsterNav3;
+
     public Transform orientation;
 
     float horizontalInput;
@@ -182,7 +186,12 @@ public class Movement : MonoBehaviour
             stickSprint = false; 
         }
 
-
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            monsterNav2.isWaiting = false;
+            monsterNav2.isWaiting = false;
+            monsterNav2.isWaiting = false;
+        }
     }
 
     private void MovePlayer()
