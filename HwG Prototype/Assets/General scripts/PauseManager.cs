@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
@@ -60,7 +61,7 @@ public class PauseManager : MonoBehaviour
     void Update()
     {
         // Pause/Unpause unless in the settings menu or a confirmation window is up, in which case go back to the pause menu
-        if (canPause && Input.GetKeyDown(KeyCode.Escape))
+        if (canPause && Input.GetKeyDown(KeyCode.Escape) || canPause && Input.GetKeyDown(KeyCode.Joystick1Button7 ))
         {
             if (inConfirmation)
             {

@@ -635,6 +635,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1268743262}
     - target: {fileID: 4668041542966148417, guid: 47bb36a4db8d6be499476106506f5919, type: 3}
+      propertyPath: sceneLoader
+      value: 
+      objectReference: {fileID: 826302298}
+    - target: {fileID: 4668041542966148417, guid: 47bb36a4db8d6be499476106506f5919, type: 3}
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 5169358532899999051}
@@ -39881,6 +39885,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1988290590}
     - target: {fileID: 4668041542966148417, guid: 47bb36a4db8d6be499476106506f5919, type: 3}
+      propertyPath: sceneLoader
+      value: 
+      objectReference: {fileID: 826302298}
+    - target: {fileID: 4668041542966148417, guid: 47bb36a4db8d6be499476106506f5919, type: 3}
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 5169358532899999051}
@@ -39952,6 +39960,10 @@ PrefabInstance:
       propertyPath: alienHead
       value: 
       objectReference: {fileID: 86824615}
+    - target: {fileID: 7604601756264617549, guid: 6e0d15f8b2dd0f745b68ed267bd396a3, type: 3}
+      propertyPath: sceneLoader
+      value: 
+      objectReference: {fileID: 826302298}
     - target: {fileID: 7604601756264617549, guid: 6e0d15f8b2dd0f745b68ed267bd396a3, type: 3}
       propertyPath: playerCamera
       value: 
@@ -40949,6 +40961,10 @@ PrefabInstance:
       propertyPath: alienHead
       value: 
       objectReference: {fileID: 2005283418}
+    - target: {fileID: 3352164759772591015, guid: 56a5786aa685ca74f940f8b359695c20, type: 3}
+      propertyPath: sceneLoader
+      value: 
+      objectReference: {fileID: 826302298}
     - target: {fileID: 3352164759772591015, guid: 56a5786aa685ca74f940f8b359695c20, type: 3}
       propertyPath: playerCamera
       value: 

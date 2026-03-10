@@ -22,6 +22,7 @@ public class DEATH : MonoBehaviour
     public PlayableDirector deathTimeline;
     public Animator fadeInanimator;
     public AudioSource catchSound;
+    public SceneLoader sceneLoader;
     public bool death;
 
     public void OnTriggerEnter(Collider other)
@@ -39,7 +40,17 @@ public class DEATH : MonoBehaviour
             Debug.Log("Player has died");
         }
     }
+    public void OnTriggerStay(Collider other)
+    {
+        if(other.gameObject.CompareTag("Player"))
+        {
+            if (Input.GetKeyDown(KeyCode.Joystick1Button2))
+            {
+                sceneLoader.ReloadLevel();
+            }
+        }
 
+    }
     private IEnumerator RotateCameraToAlien(float duration)
     {
  
