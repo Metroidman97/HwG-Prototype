@@ -23,6 +23,6 @@ public class switchactivate : MonoBehaviour
     {
         yield return new WaitForSeconds(6.7f);
         SceneLoader sceneLoader = FindObjectOfType<SceneLoader>();
-        sceneLoader.LoadMainMenu();
+        sceneLoader.LoadNextLevel();
     }
 }

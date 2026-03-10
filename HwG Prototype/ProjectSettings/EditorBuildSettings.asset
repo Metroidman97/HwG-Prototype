@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HwG Prototype.unity
     guid: 51ffd33bb94edac478081cd147f984fc
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 0708d0dfc639d2c4e8cab23ae85532bb
   m_configObjects: {}

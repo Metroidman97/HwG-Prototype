@@ -63,6 +63,7 @@
     <Compile Include="Assets\General scripts\switchactivate.cs" />
     <Compile Include="Assets\General scripts\SoundMixerManager.cs" />
     <Compile Include="Assets\Player and Camera Scripts\DEATH.cs" />
+    <Compile Include="Assets\General scripts\Credits.cs" />
     <Compile Include="Assets\Player and Camera Scripts\Movement.cs" />
     <Compile Include="Assets\Player and Camera Scripts\MatchPosition.cs" />
     <Compile Include="Assets\General scripts\MonsterNav.cs" />
