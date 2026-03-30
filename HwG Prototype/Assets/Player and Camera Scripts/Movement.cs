@@ -109,7 +109,7 @@ public class Movement : MonoBehaviour
 
     private void Update()
     {
-        MyInput();
+        
         SpeedControl();
         StateHandler();
         // GROUND CHECK
@@ -136,68 +136,8 @@ public class Movement : MonoBehaviour
 
 
     }
-    private void FixedUpdate()
-    {
-        MovePlayer();
-
-    }
-    private void MyInput()
-    {
-        horizontalInput = Input.GetAxisRaw("Horizontal");
-        verticalInput = Input.GetAxisRaw("Vertical");
-
-        // Jumping input
-
-        if (Input.GetKey(jumpKey) && readyToJump && Grounded || Input.GetKey(KeyCode.Joystick1Button0) && readyToJump && Grounded)
-        {
-            readyToJump = false;
-
-            Jump();
-
-            Invoke(nameof(ResetJump), jumpCooldown);
-        }
-        // crouching input
-
-
-        if (Input.GetKeyDown(crouchKey) || Input.GetKeyDown(KeyCode.Joystick1Button1))
-        {
-            transform.localScale = new Vector3(transform.localScale.x, crouchYScale, transform.localScale.z);
-            rb.AddForce(Vector3.down *5f,ForceMode.Impulse);
-           
-
-        }
-
-        if (Input.GetKeyUp(crouchKey) || Input.GetKeyUp(KeyCode.Joystick1Button1))
-        {
-            transform.localScale = new Vector3(transform.localScale.x, startYScale, transform.localScale.z);
-        }
-
-        //Sprint but only for the controllers
-        if (Input.GetKeyDown(KeyCode.Joystick1Button8) && rb.velocity.magnitude > 3f)
-        {
-            stickSprint = true;
-        }
-        else if (rb.velocity.magnitude < .1f)
-        {
-            stickSprint = false; 
-        }
-
-
-    }
-
-    private void MovePlayer()
-    {
-        //This is how we calculate movement direction based on player input and orientation.
-        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
-
-        // This is how we apply movement force. We use different multipliers for air and ground to make the player feel more responsive on the ground and less so in the air.
-        if (Grounded == true)
-
-            rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
-        else if (Grounded != true)
-
-            rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
-    }
+  
+   
 
     private void SpeedControl()
     {
